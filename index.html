@@ -27,3 +27,37 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
   </body>
 </html>
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JS Practice</title>
+        <link rel="stylesheet" href="styles.css">
+      </head>
+    
+    <body>
+        <h1>Javascript</h1>
+        <button type="button" class="Buttons" onclick="myFunction()"><strong>Click here to experience JavaScript!</strong></button>
+        <p id="demo"></p>
+        
+        <form action="form.html" method="get">
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname"><br><br>
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname"><br><br>
+            <input type="submit" class="Buttons" value="Submit">
+          </form>
+        
+        <p class="line">Hopefully that worked!</p>
+
+        <script>
+            function myFunction() {
+                document.getElementById("demo").innerHTML = "JavaScript has worked.";
+            }
+        </script>
+    <button type="button" class="Buttons" onclick="window.alert('This is also Javascript.')">This is another button to click, if you want to experiece some more JavaScript!</button>
+    </body>
